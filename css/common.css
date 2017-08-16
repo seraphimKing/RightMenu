@@ -1,0 +1,25 @@
+.out {
+	position: relative;
+}
+#menu {
+	display: none;
+	width: 130px;
+	background-color: #E5E5E5;
+	border: 1px solid #fff;
+	position: absolute;
+}
+#menu>.item {
+	display: block;
+	border-bottom: 1px solid #fff;
+	font-size: 13px;
+	text-align: center;
+}
+#menu>.item > a {
+	width: 100%;
+	padding: 6px 0;
+	display: block;
+	cursor: pointer;
+}
+#menu>.item:last-child {
+	border: none;
+}
